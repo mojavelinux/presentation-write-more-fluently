@@ -1,0 +1,51 @@
+= 7 More Brain Hacks to Write Fluently
+Dan Allen <https://github.com/mojavelinux[@mojavelinux]>
+:branch: master
+
+[abstract]
+--
+// tag:abstract[]
+Your brain...still a tyrant;
+still holding your ideas hostage.
+But like all computers, your brain can be hacked.
+Let's once again set those ideas free by coercing your brain to yield to your creative will.
+
+After a popular session last year, I'm back to share with you 7 more techniques (and perhaps a few to review) that I use to hack my brain to write fluently.
+Centered around the AsciiDoc markup language, we'll explore new tricks with sentence-per-line, keeping content DRY, writing while not writing, applying content types, and more!
+
+These tricks you can play on your brain can help keep you in writing flow and the cursor racing across the screen.
+After attending this session, the blank page will no longer be your nemesis, but instead your oyster!
+// end:abstract[]
+--
+
+== View online
+
+//https://mojavelinux.github.io/presentation-write-more-fluently[Slides]
+//&middot;
+https://github.com/mojavelinux/presentation-write-more-fluently/blob/{branch}/src/notes/script.adoc[Script]
+
+== Build and view slides locally
+
+First, ensure you have the following installed:
+
+. http://nodejs.org[Node.js]
+. http://gulpjs.com[Gulp CLI]
+
+ $ npm install -g gulp-cli
+
+. https://www.ruby-lang.org/[Ruby >= 2]
+
+ $ rvm use 2.3.1 --install
+
+. http://bundler.io/[Bundler]
+
+ $ gem install bundler
+
+Next, install dependencies (if not already installed by the generator):
+
+ $ npm install
+   bundle install --path=.bundle/gems
+
+Finally, build and serve the presentation!
+
+ $ gulp serve

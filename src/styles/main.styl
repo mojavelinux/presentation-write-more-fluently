@@ -1,0 +1,149 @@
+@import './fonts.css'
+@import 'normalizecss/normalize.css'
+@import './bespoke-base.styl'
+
+.deck
+  font-family Overlock, sans-serif
+  color rgba(0, 0, 0, 0.8)
+  background-color #000
+  counter-reset hack-idx
+
+h1, h2
+  font-size 4em
+  text-align center
+
+section
+  background-color #fff
+
+section.title, section.fin
+  background-color #000
+  background-image linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 100%), url(../images/setting.jpg)
+  background-size cover
+  color #ffff
+
+section.title h1
+  line-height 1.2
+  margin 0
+  span
+    display block
+    &.secondary
+      font-weight 400
+      font-size 0.5em
+
+p.author
+  font-family "Work Sans", sans-serif
+  font-weight 300
+  margin 0
+  position relative
+  top 1em
+  > span + span::before
+    content '\00a0\00b7\00a0'
+
+section.topic h2
+  counter-increment hack-idx
+  &::before
+    content "#" counter(hack-idx)
+    color rgba(0, 0, 0, 0.5)
+    position absolute
+    right 10%
+    bottom 10%
+    font-size 3rem
+    line-height 1
+
+section.hack-1, section.hack-4, section.hack-7
+  background-color #f8b200
+  color #000
+
+section.hack-2, section.hack-5
+  background-color #a0cbbf
+  color #27221e
+
+section.hack-3, section.hack-6
+  background-color #e14304
+  color #fff
+
+section.poster
+  &:not(.invert)
+    background-color #000
+  figure
+    margin 0
+    width 100%
+    height 100%
+  figcaption
+    position absolute
+    bottom 2rem
+    padding 1em 1.5em
+    font-family "Work Sans", sans-serif
+    font-weight 300
+    background-color rgba(255, 255, 255, 0.15)
+    width 100%
+    color #fff
+    font-size 1.25em
+  img
+    max-width 100%
+    max-height 100%
+  // fix scaling in Firefox
+  display block
+  img
+    position relative
+    top 50%
+    left 50%
+    transform translateX(-50%) translateY(-50%)
+
+section.review
+  background-color #27221e
+  color #fff
+  ul
+    list-style none
+    padding 0
+    width 75%
+    text-align right
+    line-height 1.6
+    font-size 1.5em
+
+.listing
+  background-color #0f0d0c
+  color #d3d2d2
+  justify-content flex-start
+  align-items flex-start
+  pre
+    margin 1.25em 0 0 1em
+    white-space pre-wrap
+    overflow hidden
+    > code
+      font-size 1.0625em
+      font-family "Roboto Mono", monospace
+      word-spacing -0.1em
+      font-weight 300
+      line-height 1.65
+
+pre code
+  strong
+    font-weight 400
+  .comment
+    opacity 0.75 
+
+section.minion
+  background-color #0f0d0c
+  align-items flex-end
+  img
+    max-height 25%
+  // fix scaling in Firefox
+  display block
+  img
+    position absolute
+    top 50%
+    right 0
+    transform translateY(-50%)
+
+section.minion.bespoke-active img
+  max-height 75%
+  transition max-height ease-in-out 0.25s 0.25s
+
+span.error
+  h2 &
+    color #f8b200
+  p &
+    background-color #f8b200
+    color #27221e
+    border-radius 5px

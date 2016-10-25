@@ -1,0 +1,52 @@
+= [.secondary]#7 More# [.primary]#Brain Hacks# [.secondary]#to# [.primary]#Write Fluently#
+Dan Allen
+//Dan Allen <http://opendevise.com[@mojavelinux]>
+:organization: OpenDevise
+:twitter: @mojavelinux
+:!sectids:
+:icons: font
+:imagesdir: images
+//:source-highlighter: pygments
+//:pygments-style: bw
+//:pygments-css: style
+:uri-script: notes/script.adoc
+
+[.cue]
+****
+include::{uri-script}[tag=title]
+****
+
+[.topic.hack-{counter:hack-idx}]
+== Offload your thoughts
+
+[.topic.hack-{counter:hack-idx}]
+== Fill in the blanks
+
+[.topic.hack-{counter:hack-idx}]
+== Remove the clutter
+
+[.topic.hack-{counter:hack-idx}]
+== Travel with your fingers
+
+[.topic.hack-{counter:hack-idx}]
+== Take a hike
+
+[.topic.hack-{counter:hack-idx}]
+== Push to publish
+
+[.topic.hack-{counter:hack-idx}]
+== Make progress every day
+
+[.review]
+== !
+
+* Offload your thoughts
+* Fill in the blanks
+* Remove the clutter
+* Travel with your fingers
+* Take a hike
+* Push to publish
+* Make progress every day
+
+[.fin]
+== Write with pleasure!

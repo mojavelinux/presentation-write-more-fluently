@@ -1,0 +1,6 @@
+/.nvmrc
+/.ruby-version
+/Gemfile.lock
+/.bundle/
+/dist/
+/node_modules/

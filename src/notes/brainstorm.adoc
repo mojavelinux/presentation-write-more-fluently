@@ -1,0 +1,55 @@
+= 7 More Brain Hacks to Write Fluently: Brainstorm
+
+== Big Idea / Purpose
+
+...
+
+== Ideas
+
+- Remove clutter (and clarify the responsibility)
+  Attributes / includes / syntax extensions
+  (Picture of a clean desk or room)
+  (Don't get stuck in the details)
+  Be frugal
+- Offload your thoughts
+  (Builds on Sentence-per-line and Draft in comments)
+- Take a hike
+  (Complements Couch read)
+- Divide & conquer (no monolithic documents)
+- Push to publish
+  (Builds on Visualize your progress)
+- Make progress every day
+  (The subtle secret to great success; https://plus.google.com/114112334290393746697/posts/ivdMTCLhny5)
+  (Habits are reliable)
+- Start with scaffolding; start with a template
+  (Builds on the Answer a question)
+- Write a selfie / Email yourself / Mailme
+- Navigate with your fingers; Tapping leads to typing; Keyboard only; Walking with your fingers; Walking over the lines
+  Traveling with your fingers
+  - ties into sentence per line
+- Read the script aloud; let is sit
+
+Might be neat if all or some of these build on hacks in the original 7. Could mention / reflect on them as we go along.
+
+////
+* clause-per-line or any break opportunity
+* GitHub PR can be a couch read too
+  - ?w=1 diff on GitHub; rich diff on GitHub
+////
+
+== Concepts
+
+=== Examples
+
+=== Slides / Images
+
+* Blank template for "Fill in the blanks"
+* Show what the Spring.io team did with their guides to help "fill in the blanks"
+  - https://github.com/spring-guides/getting-started-macros/
+* Image of clean (physical) workspace for "Remove the clutter"
+* Picture of keyboard, either with heatmap, touch typing hands, or vim shortcuts, for "Travel with your fingers"
+* GitHub contribution graph for "Make progress every day"
+
+== Resources
+
+* http://well.blogs.nytimes.com/2015/07/22/how-nature-changes-the-brain/

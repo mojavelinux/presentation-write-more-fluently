@@ -1,0 +1,332 @@
+= 7 More Brain Hacks to Write Fluently: Narrative
+//= 7 More Hacks to Get Your Brain to Write Fluently: Narrative
+:wc: pass:q[^(wc)^]
+:experimental:
+:toc:
+
+== Introduction
+
+#TODO# Self introduction.
+
+Your brain is, and will always be, a tyrant.
+It likes to hold ideas hostage.
+But, like all computers, your brain can be hacked.
+Let's figure out how to set those ideas free and coerce your brain to yield to your creative will.
+
+== Brain Hacks
+
+Today, I'll share with you 7 more brain hacks that I use to write fluently.
+// TODO mention the previous talk, then launch into the first hack
+
+=== Offload your thoughts
+
+You need to start by clearing your head.
+
+Open up a plain text file and write down everything that comes to mind about your topic.
+Put each thought on a line by itself.
+No formatting.
+No self-editing.
+Resist the temptation of writing in complete sentences.
+Lines should read more like bullet points.
+Aim to keep lines shorter than the screen width.
+
+Record facts, points you want to make, supporting quotes, concepts, terms with definitions, instructions, examples you'll need, etc.
+
+The purpose of this practice is to note down your ideas without committing to a particular narrative.
+It takes the burden of having to remember all these thoughts off your mind, giving your brain space to think.
+You're also laying everything out in front of you so that you can later rearrange it and allow an order emerge.
+
+The term for this phase is "`free writing.`"
+
+You'll feel really good after doing this step because you'll have something to show for your effort.
+It will also be clear where the gaps are in your understanding or in the story that are going to require more research.
+
+In my experience, free writing also kicks off a background process in my brain that keeps digging for new ideas and connections to contribute to this cache.
+I'll repeatedly run back to my computer or email myself as thoughts pop into my head.
+*My theory is that once your brain has a place to put stuff, it commits to collecting that stuff.*
+
+Once you have this cache of information, print it out so you can review it.
+Circle lines that represent the most important points.
+These are your big ideas.
+Then, go back to the original document and make section titles for each of these points.
+Organize the remaining lines under these sections.
+Throw out any lines that don't fit in these big ideas.
+The key to this stage is to let the content speak to you, and for itself. 
+(Fake it until you make it).
+
+Congratulations.
+You now have the outline and first draft of your document done!
+
+=== Fill in the blanks
+
+// TODO templates can also be used for individual content components; for instance, you don't have to design a properties table; you just take the pre-defined structure and fill in the blank
+
+Another path you can take to get to a first draft is to start with a blank worksheet or template, then just fill in the blanks.
+
+This approach works particularly well for technical documentation such as a tutorial, README, or contribution guide.
+The pre-defined structure laid out by the template encourages consistency from one project to another and avoids you having to invent that structure each time.
+It also reminds you not to skip over a topic or leave out a critical step.
+
+We can build on the "`Answer a question`" brain hack from part 1 of this series by making the template an outline of questions.
+With the outline already set, you can save your brain power and focus on the responses, which is the meat of the content.
+Once you're done filling out this questionnaire, swap each question with a statement or topic.
+Voila, your first draft is done!
+
+Each time you fill in the blanks, you're going to gain new insights about how to improve the template.
+For instance, you'll discover sections that are missing, better ways to phrase the questions, or recognize additional common elements you can move to the template.
+If you continuously to invest these changes back into the template, the practice of filling in the blanks gets easier over time, and gets you to a first draft quicker.
+
+The Spring team realized that certain content is so stable and so boilerplate that it's possible to fill in the blanks using a form of mail merge.
+They define values of pre-defined content attributes in the document header, then include shared templates into the main document using the include directive.
+The processor automatically populates these templates and weaves the result into the published document.
+The Spring team calls these content macros.
+
+Not only do content macros save a lot of effort, they also shift the responsibility of maintaining that part of the content to the content owner.
+And since the content is centralized, updates can be pushed out to all documents that include it.
+If you think about it, the fastest way to write content is to not have to write the content at all!
+
+That brings us to our next hack.
+
+//After completing the template, or defining the pre-defined content attributes, you're well on your way to having a first draft of your document done!
+
+=== Remove the clutter
+//== Free your space, free your mind
+
+// TODO get the code samples out of your doc
+// TODO custom macros as dialect
+// TODO Disable the spell check.
+
+Clutter is a major deterrent to writing fluently, or just writing in general.
+It gives you the feeling of being confined.
+That, in turn, limits the space for your thoughts to roam.
+
+You can start by clearing away the physical space around you.
+All those little nags and reminders are enticing you to take your concentration off the writing.
+Writing comes from within, but you can't hear that voice if its being drown out by the environment around you.
+
+But the clutter I really want to focus on the most is the clutter in the document itself.
+One of the reasons I find it so easy to write in AsciiDoc is because it's mostly just lines of text.
+There are descriptive/suggestive markings here and there, but mostly it's uncluttered.
+The reaction many writers have when they switch from a syntax laden with XML tags like DocBook to AsciiDoc is, "`I can finally see my content!`"
+You get brought closer to your content and that intimacy allows you to form a deeper connection with the content.
+That's when the ideas really start flowing.
+
+When you do have to add formatting marks, be frugal about it!
+Just because AsciiDoc has a rich syntax doesn't mean you have to use all of it, at least not at once.
+If you must to apply special formatting for a term, by all means, add a role to it.
+But don't fall into the trap of marking stuff just because you can.
+Before you know it, you'll be marking up all the parts of speech!
+
+If you find yourself repeating the same syntax over and over again, refactor that content into an attribute.
+For instance, if you write the name of your application in a certain way, move that content to an attribute and just reference the attribute.
+Not only is it shorter and cuts down on typing, it also allows you to tweak it later without having to find all instances.
+In other words, attributes are a DRY practice.
+Other content to pull into attributes include URIs, paths, and version numbers.
+
+As a general habit, I like to use the minimum number of characters possible to markup the document.
+I shoot for creating the simplest possible document I can.
+Remove the clutter.
+Where this comes up in AsciiDoc are section titles, delimited blocks, and attributes for phrases or blocks.
+You can write a section title using leading equal signs or you can underline the section title.
+Why type more than you can.
+Stick to single-line section titles.
+Most blocks consist of delimiter lines with four or more characters.
+Again, why type more than you have to.
+Keep your block delimiters at four characters.
+Asciidoctor features a shorthand for defining the common attributes on a phrase or block such as the id, role, or options.
+Use them!
+
+As a general rule of thumb, to write fluently, only write what you have to.
+// More content means more to edit
+Be vigilant about removing clutter and you'll give your brain plenty of space to work.
+
+=== Travel with your fingers
+// == Keep typing
+
+One way to write fluently is to keep your hands on the keyboard and travel around the document using only your fingers.
+The locomotion of continuously pressing keys gives you momentum that leads right into typing words and phrases.
+And there are certainly enough keys and key combinations on the keyboard that you don't need those few buttons on your mouse.
+
+I do all my writing in Vim.
+Vim is a text editor that's controlled entirely using the keyboard.
+You use the keyboard to open a file, to move the cursor around the file, to add text to the file, and to save the file.
+You use the keyboard to do everything.
+You can even split the screen to look at multiple files at once or different parts of the same file.
+And its bread and butter is working with plain text, so AsciiDoc is a natural fit.
+
+If you haven't yet, I strongly recommend that you at least give a keyboard-focused editor like Vim or Emacs a try.
+It's a little daunting at first, for sure, but it gives you a certain freedom that you've likely never experienced before.
+All I can say is that there's no way I could write without Vim now.
+And I'm not even really that good at using it.
+
+The fact that I use the keyboard to navigate the document is one of the reasons I advocate so strongly to use sentence per line when writing AsciiDoc.
+As I cover in part 1 of this series, sentence per line is a technique in which you put each sentence on its own line.
+Since AsciiDoc doesn't preserve endlines within normal paragraph text, this doesn't affect the output.
+
+Using this arrangement, I can navigate between sentences just by moving the cursor up and down (using keys on the home row, of course).
+I can delete a sentence by typing kbd:[dd].
+I can comment out or reenable a sentence by inserting `//` at the beginning of the line.
+I can split a paragraph into two by typing kbd:[O].
+I can swap sentences around using a combination of kbd:[dd] and kbd:[kP] or kbd:[p].
+I can quickly reorder paragraphs as well.
+I can manipulate multiple sentences at once using a visual block.
+I can jump around in the document using a regex search.
+(If you're brave enough to customize the mappings, you can come up with even simpler ways of doing it).
+All this control saves me from the disruption of reaching for the mouse and attempting to scissor and stitch the fundamental element of the content, the sentence.
+There's so much more I won't even mention here.
+
+Best of all, you'll get total hacker cred for writing using Vim.
+You'll have so many developer friends, and personal support, you won't ever get lost writing a technical document again.
+If that doesn't help you write fluently, I don't know what will.
+
+=== Take a hike
+
+// TODO change of scenery
+
+Sometimes, the best way to make progress writing is to do something other than writing.
+When you're stuck, take a hike.
+Try to get out into nature if you can.
+Other routine activities work as well, such as cooking or taking a shower.
+
+The enemy you're up against is brooding.
+That's when you're dwelling on the negative aspects of a task.
+You become a broken-record, fretting over what you need to do instead of actually moving forward.
+It's a vicious cycle you need to break free of.
+
+Some of the most famous writers of all time, including Twain, Hemingway, and Emerson, all praise the benefits of walking.
+Whether it's the solitude, the locomotion to get your blood flowing, or just a break from the expectations and pressure, I, too, find a walk helps me collect ideas and organize my thoughts.
+
+> It was easier to think if I was walking and doing something.
+-- Ernest Hemingway
+
+> The moment my legs begin to move, my thoughts begin to flow.
+-- Henry David Thoreau
+
+> All truly great thoughts are conceived by walking.
+-- Friedrich Nietzsche
+
+//> Meandering leads to perfection.
+//-- Lao Tzu
+
+The quote I like the most is this one by Soren Kierkegaard:
+
+> I have walked myself into my best thoughts.
+-- Soren Kierkegaard
+
+Instead of thinking of walking as an escape, think of it as a journey you're taking towards the content you want to find.
+The walking then becomes part of the writing process.
+By the time you return, you'll be itching to jot down all the thoughts that you worked out and that "`walking start`" should get you writing fluently.
+
+I think there's also something about not being able to write during this time that forces your brain to work harder on the ideas.
+When a particularly good idea comes to my mind, I'll still pull out my phone and e-mail myself a phrase or some bullet points so that I can continue on with the next thought.
+I'm doing a bit of the brain offload I discussed earlier while away from my desk.
+
+Many writers mention that talking is an important component as well, so consider taking a walk with a friend or confident.
+
+Writing is a process of negotiation with your brain.
+But sometimes, getting your body involved can help to.
+When your stuck, get those legs moving and you might find that your thoughts start moving as well.
+
+// Enable push to publish
+// Configure push to publish
+=== Push to publish
+
+// TODO if you're the one that would have been responsible for publishing, then the impact of this system is magnified
+
+Part of motivating ourselves to write is believing there's a purpose in doing so.
+One way to instill that impression is to make publishing of the content automatic.
+This builds on the "`visualize your progress`" tip from part 1, but taking it all the way to the published site.
+The result is that the writer can instantly see the impact of his or her work.
+
+Once the writer's changes are merged into master (you are using git to manage your content, right?), everything that needs to happen after that to publish the content should be automatic and instant.
+The workhorse here is the CI server like Travis or Jenkins.
+The CI job detects the updates on master, kicks off the build, and synchronizes the output files to the web host (or wherever the content needs to go to be accessible).
+Knowing that there's a direct path to production really gives you as a writer the motivation to write, to refine that writing, and to get it out into the world. 
+In essence, we're taking the practice of continuous delivery from development and bringing it to the writing world as the "`push to publish`" workflow.
+
+Of course, there's still room for interim steps in this workflow.
+For instance, the writer can push his or her changes to a branch and send a pull request.
+That gives other members of the team a chance to review the changes and engage in a discussion, which brings a social aspect to the writing.
+We're less likely to get stuck when we're not alone.
+Knowing that you're going to get feedback on your writing is also an important motivator.
+That feedback brings new ideas and questions to answer, all of which can help fuel your writing.
+
+If you're really good, you can even set up and automated workflow that builds that branch and publishes it to a staging environment.
+This gives the writer the satisfaction that the content is available without having to put it directly into production.
+
+Regardless of how you decide to handle staging, when that change is merged to master, no human should have to be involved to get those updates into production.
+It's just push to publish.
+
+=== Make progress every day
+
+Make progress every day.
+That's the subtle secret to great success.
+To get the ball rolling, don't try to write everything.
+Just write something.
+Then make writing a daily habit.
+
+I remember when I first heard the old Verizon tagline, "`Make progress every day.`"
+I immediately thought to myself, "`If there's ever been a rally cry to be mediocre, that has to be it.`"
+I've grown older and wiser since then.
+
+What I've come to realize is that you can't mandate greatness.
+It's just too much pressure.
+Imagine if the tagline had been, "`Do something amazing every day.`"
+People would react in one of two ways:
+
+. They'd stress out about how to do something great and, as a result, not be productive at all.
+. They'd snub their nose at it and rebel and, as a result, not be productive at all.
+
+Either way, same outcome.
+
+The suggestion to make progress every day is far more effective.
+If you think about writing the final draft of a document from start to finish, you'll never do it.
+If, instead, you think about just getting something down, and not letting the day come to an end without doing it, it seems achievable.
+
+As a developer, I don't look at writing as a documentation task.
+I treat it as a development task and a code contribution.
+I use the same workflow.
+I file an issue for the improvement.
+I submit a pull request with the change.
+Then, I review and merge that change.
+Finally, I give myself credit for it as a contribution.
+
+If you know you need to make progress every day, then you begin to plan to make progress tomorrow.
+Your anticipates the activity as part of your daily routine, reserves energy for it, and gets you mentally prepared to do it.
+In other words, you learn to pace yourself instead of cramming, then crashing. 
+Before you know it, you've reach flow.
+In flow, you unlock new potential.
+The feeling of being productive is fulfilling, even intoxicating, so you keep doing it.
+And would you look at that, you're writing fluently.
+This is the ultimate brain hack.
+
+As you get into the habit, you also get better at picking something to write that you can complete in one day.
+By not biting off more than you can chew, you avoid the situation of getting overwhelmed or letting yourself down.
+If you set out do something, rather than trying to do something amazing, you get that something under your belt. 
+Completing that task gives you a sense of accomplishment.
+You remember how it makes you feel and you want to do it again.
+It's a virtuous cycle.
+
+Great success starts by simply making progress.
+Start by making progress today.
+Then tomorrow.
+Then the next. 
+Before you know it, writing fluently will just be a part of your daily routine.
+That's the secret to putting writer's block into remission and becoming a happy, productive writer.
+
+== Conclusion
+
+#TODO# Needs revision.
+
+In this talk, I shared with you the following brain hacks to write fluently:
+
+* Offload your thoughts
+* Fill in the blanks
+* Remove the clutter
+* Take a hike
+* Travel with your fingers
+* Push to publish
+* Make progress every day
+
+I hope that you can use these brain hacks, as well as the hacks from part 1 of this series, to help you write with pleasure.
+Thank you.
