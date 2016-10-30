@@ -1,0 +1,13 @@
+= Q: What is the project's name?
+
+//Q: Why does this project exist?
+
+== Q: What do I need to get started?
+
+== Q: How do I install it?
+
+== Q: Can you show me how it's used?
+
+== Q: How do I contribute?
+
+== Q: Who wrote it? What's the license?

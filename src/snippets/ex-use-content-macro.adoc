@@ -1,0 +1,10 @@
+= Building an Application with Spring Boot
+:project_id: gs-spring-boot
+:java_version: 1.8
+:uri-content-macros: https://raw.githubusercontent.com/spring-guides/getting-started-macros/master
+:initial: /initial
+:complete: /complete
+
+== What You'll Need
+
+\include::{uri-content-macros}/how_to_complete_this_guide.adoc[]

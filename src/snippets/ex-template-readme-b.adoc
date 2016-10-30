@@ -1,0 +1,13 @@
+= ACME Widget Factory
+
+This project is a software library for building widgets.
+
+== Prerequisites
+
+== Installation
+
+== Usage
+
+== How to Contribute
+
+== About this Project

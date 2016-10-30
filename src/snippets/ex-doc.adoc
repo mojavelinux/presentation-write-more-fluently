@@ -1,0 +1,18 @@
+= Write Without Clutter
+Author Name <author@example.org>
+
+A brief introduction.
+
+== AsciiDoc in a Nutshell
+
+* Text editor
+* Source control
+
+[source,ruby]
+Asciidoctor.convert_file 'example.adoc', safe: :safe
+
+image::screenshot-01.png[Screenshot]
+
+== Conclusion
+
+"`That's all, folks!`"

@@ -1,0 +1,13 @@
+== How to complete this guide
+
+To *start from scratch*, move on to <<scratch>>.
+To *skip the basics*, do the following:
+
+* https://github.com/spring-guides/{project_id}/archive/master.zip[Download] and unzip the source repository for this guide, or clone it using git:
+
+  $ git clone https://github.com/spring-guides/{project_id}.git
+
+* cd into `{project_id}{initial}`
+* Jump ahead to <<initial>>.
+
+*When you're finished*, you can check your results against the code in `{project_id}{complete}`.
