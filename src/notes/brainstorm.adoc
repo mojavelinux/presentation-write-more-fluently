@@ -27,7 +27,7 @@
 - Navigate with your fingers; Tapping leads to typing; Keyboard only; Walking with your fingers; Walking over the lines
   Traveling with your fingers
   - ties into sentence per line
-- Read the script aloud; let is sit
+- Read the script aloud; let it sit
 
 Might be neat if all or some of these build on hacks in the original 7. Could mention / reflect on them as we go along.
 
@@ -45,10 +45,11 @@ Might be neat if all or some of these build on hacks in the original 7. Could me
 
 * Blank template for "Fill in the blanks"
 * Show what the Spring.io team did with their guides to help "fill in the blanks"
-  - https://github.com/spring-guides/getting-started-macros/
+  - screenshot of https://github.com/spring-guides/getting-started-macros/ perhaps?
 * Image of clean (physical) workspace for "Remove the clutter"
 * Picture of keyboard, either with heatmap, touch typing hands, or vim shortcuts, for "Travel with your fingers"
 * GitHub contribution graph for "Make progress every day"
+  - "you know you need to up your game when your shower contributes more to GitHub than you do"
 
 == Resources
 
