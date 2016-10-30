@@ -5,7 +5,7 @@
 .deck
   font-family Overlock, sans-serif
   color rgba(0, 0, 0, 0.8)
-  background-color #000
+  background-color #0f0d0c
   counter-reset hack-idx
 
 h1, h2
@@ -16,7 +16,7 @@ section
   background-color #fff
 
 section.title, section.fin
-  background-color #000
+  background-color inherit
   background-image linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 100%), url(../images/setting.jpg)
   background-size cover
   color #ffff
@@ -65,7 +65,7 @@ section.hack-3, section.hack-6
 
 section.poster
   &:not(.invert)
-    background-color #000
+    background-color inherit
   figure
     margin 0
     width 100%
@@ -139,23 +139,17 @@ section.quote
   justify-content flex-start
   align-items flex-start
   pre
-    //margin 1.25em 0 0 1em
     margin 0
-    //padding 1em
-    padding 1em
-    width 100% // prevent Firefox from prematurely wrapping
+    padding 0.75em
+    width 100%
+    height 100%
     white-space pre-wrap
     overflow hidden
+    border 0.075em solid rgba(211, 210, 210, 0.35)
+    border-radius 0.25em
     > code
-      //font-size 1.0625em
       font-family "PT Mono", monospace
-      //word-spacing -0.1em
-      //letter-spacing -0.01em
-      //line-height 1.65
-      //line-height 1.25
-      //line-height 1.2
       line-height 1.35
-      //font-weight 300
 
 pre code
   //strong
