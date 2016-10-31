@@ -44,7 +44,7 @@ section.topic h2
   counter-increment hack-idx
   &::before
     content "#" counter(hack-idx)
-    color rgba(0, 0, 0, 0.5)
+    color rgba(0, 0, 0, 0.4)
     position absolute
     right 10%
     bottom 10%
@@ -105,8 +105,7 @@ section.review
     li 
       counter-increment hack-idx
       &::after
-        color #a0cbbf
-        opacity 0.75
+        color rgba(160, 203, 191, 0.9)
         padding-left 0.3334em
         content '#' counter(hack-idx)
 
@@ -145,7 +144,8 @@ section.quote
     height 100%
     white-space pre-wrap
     overflow hidden
-    border 0.075em solid rgba(211, 210, 210, 0.35)
+    //border 0.075em solid rgba(211, 210, 210, 0.35)
+    border 0.125em solid rgba(211, 210, 210, 0.1)
     border-radius 0.25em
     > code
       font-family "PT Mono", monospace
