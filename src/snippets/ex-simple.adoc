@@ -1,11 +1,14 @@
+​
 == Getting Started
 
+
 Connecting to another machine using [app]#ssh# is easy. If the remote machine is example.com and your username is _john_, type `ssh \john@example.com`.
+
 
 [#attributes.reference%autowidth]
 |===
 | Name | Description
 
 | id   | Unique identifier
-| role | Classifier
+| role | General classifier
 |===
