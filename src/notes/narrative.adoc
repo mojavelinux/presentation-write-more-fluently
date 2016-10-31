@@ -313,6 +313,7 @@ That gives other members of the team a chance to review the changes and engage i
 We're less likely to get stuck when we're not alone.
 Knowing that you're going to get feedback on your writing is also an important motivator.
 That feedback brings new ideas and questions to answer, all of which can help fuel your writing.
+//And if someone else submits a pull request and it looks good, all you need to do is click the merge button.
 
 //If you're really good, you can even set up and automated workflow that builds that branch and publishes it to a staging environment.
 //This gives the writer the satisfaction that the content is available without having to put it directly into production.
@@ -359,6 +360,7 @@ I submit a pull request with the change; that's a contribution.
 Then, I review and merge that change; and that's a contribution.
 Each step along the way, I get credit for the work I've done.
 
+// TODO Jump to new conclusion from here
 If you know you need to make progress every day, then you begin to plan to make progress tomorrow.
 Your anticipates the activity as part of your daily routine, reserves energy for it, and gets you mentally prepared to do it.
 In other words, you learn to pace yourself instead of cramming, then crashing.
