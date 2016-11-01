@@ -1,0 +1,12 @@
+= Image Credits
+
+// tag::list[]
+* keyboard-typing.jpg, CC-BY SA, https://commons.wikimedia.org/wiki/File:Backlit_keyboard.jpg
+* hiker.jpg, CC0 Public Domain, Hermann @ https://pixabay.com/en/wanderer-backpack-hike-away-path-455338/
+* messy-workspace.jpg, CC0 Public Domain, Unsplash @ https://pixabay.com/en/computer-phone-workspace-desk-918678/
+* clean-workspace.jpg, CC0 Public Domain, Pexels @ https://pixabay.com/en/apple-smartphone-desk-laptop-1282240/
+* quote-bg.jpg, CC0 Public Domain, bykst @ https://pixabay.com/en/wood-paper-old-background-boards-1532439/
+* nut-stash.jpg, CC0 Public Domain, Oldiefan @ https://pixabay.com/en/animal-squirrel-sciurus-foraging-927912/
+* emerging-idea.jpg, Sarah White
+* brooding.jpg, scene from Stranger Things, copyright Netflix
+// end::list[]
