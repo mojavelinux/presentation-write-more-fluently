@@ -1,0 +1,52 @@
+= Documentation Collaboration: Offload
+:hardbreaks:
+
+collaborating is a pain
+leads to frustration with a capital F
+sharing files over email is tedious, imprecise, inefficient
+author/accountability lost
+edits must be manually evaluated/reviewed
+integration into the final document :-/
+tools don't provide versioning and merging
+group can't see who's working on the files
+files get out of sync
+what changed?
+versions diverge => merge nightmare (>_<)
+deciding to buy and install CMS
+expensive
+requires special knowledge/training
+poor integration with publishing and distribution platforms
+difficult to customize
+eliminates some users
+document architecture and workflow <- how it works
+create tutorial <- how you use it
+requires too much investment of time and money
+migration tragedy
+monolithic
+content lobotomy
+can't assign complex authorship to mixed content
+let people edit but not leave notes
+track analytics?
+where is content being used?
+inflexible
+difficult to customize to desired specifications which means still have to use other tools to complete work/manually integrate
+SMEs get impatient/can't use without extensive training (and who has time for that these days)
+barrier to entry due to security protocols or inability to use the CMS w
+team will still suffer from the same frustrations of an email/non-version/non-merge system and inefficiency/ineffectiveness caused by CMS
+doesn't adequately match the documentation and business requirements of the writing team
+business goals -> why we'd do the next things
+improve process incrementally
+prioritize headaches
+end time sucks
+needs to be easy to learn
+if all of the people who need to help in the planning, drafting and finalization of the the docs can't work together efficiently and accurately they'll become disengaged and frustrated
+difficulties and bad feelings will impact the quality of the content
+inaccurate information
+out-of-date
+poorly organized & written content
+lack of/incomplete content
+makes people even less likely to work on it
+directly impacts -> adoption of the company's software, reputation, success
+#FAILFAILFAIL
+make successful process repeatable
+let's you make change quickly and safely without human error from manually repeating a process

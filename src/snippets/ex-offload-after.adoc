@@ -1,0 +1,42 @@
+= Better Collaboration Leads to Better Documentation: Outline
+Sarah White
+v1.0.0
+
+[#big-idea]
+Why is it so difficult to collaborate on documentation?
+We believe it's because collaboration procedures are often accidental.
+Managing collaboration as a core requirement leads to a better workflow.
+
+Emailing or sharing files via a corporate server or services that don't provide versioning is tedious, imprecise and inefficient.
+This leads to frustrated creators, editors, content managers and users.
+
+== Emailing and sharing files is tedious, imprecise and inefficient
+
+When the tools the team use to collaborate on documentation don't provide versioning and merging, the group can't see who is working on the files, the files get out of sync, authorship and accountability are lost, and edits have to be manually evaluated and integrated into the final document.
+
+When the body of documentation becomes too difficult to manage using these informal methods, many businesses decide to buy a content management system (CMS).
+However, a CMS is typically expensive, requires a lot of special knowledge and training, may not integrate with the publishing and distribution platforms the business uses, and can be difficult to customize to the team's workflow.
+Additionally, a CMS still may not provide a solution for all of the team's collaboration requirements, uses, or tasks.
+
+== A CMS isn't a silver bullet solution
+
+CMSs are typically expensive and monolithic.
+They may be good at providing a workflow but they may not assign authorship to integrated content, they may let people edit but not leave notes, they may make editing in situ impossible, they may not track analytics, they may not provide indexes that allows content to be tagged, easily found and used in other outputs, they may not track where the content is being used and offer suggestions or warnings about its state to writers, editors, managers and users.
+And due to their inflexibility, it is difficult to customize the CMS to the team's desired specifications which means they will still have to use other tools to complete their work.
+Additionally, subject matter experts (SMEs) and other collaborators not directly writing the documentation may find the CMS a barrier to entry due to security protocols or the inability to use the CMS without extensive training.
+
+== It's a problem when SMEs can't access the CMS or use it well
+
+If all of the people needed to create and write quality documentation do not have access to the CMS, the team will still suffer from the same frustrations of an email, non-version, non-merge system as well as inefficiency and ineffectiveness caused by a CMS that doesn't adequately match the documentation and business requirements of the writing team.
+
+== Collaboration on documentation is business requirement
+
+An easy to learn, use and manage collaboration system is a business requirement because if all of the people who need to be involved in the planning, drafting and finalization of the the documentation content can't work together efficiently and accurately they'll become disengaged and frustrated.
+
+In turn, these difficulties and the feelings they cause will impact the quality of the content (inaccurate information, out-of-date information, poorly organized and written content, incomplete content) which will make people even less likely to work on it or use it.
+Poor quality documentation directly impacts the adoption of the company's software, and then its reputation and success.
+
+== Takeaway
+
+Putting in place all of the documentation team's collaboration requirements without undo complexity and with respect to how the team works leads to quality content.
+Each person who touches the content feels relaxed, secure and engaged in the creation process.
