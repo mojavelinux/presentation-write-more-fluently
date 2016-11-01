@@ -28,7 +28,7 @@ Let's get started.
 === Offload your thoughts
 
 // tag::offload-intro[]
-Hack #1: Offload your thoughts.
+Hack #{counter:hack-idx-script}: Offload your thoughts.
 // end::offload-intro[]
 
 // tag::offload-instruction[]
@@ -85,7 +85,7 @@ You now have the first draft of your document done.
 === Fill in the blanks
 
 // tag::blanks-intro[]
-Hack #2: Fill in the blanks.
+Hack #{counter:hack-idx-script}: Fill in the blanks.
 
 Another path you can take towards a first draft is to begin with a blank worksheet or template and then just fill in the blanks.
 // end::blanks-intro[]
@@ -134,7 +134,7 @@ And since the content is centralized, updates can be pushed out to all documents
 // TODO Disable the spell check.
 
 // tag::clutter-intro[]
-Hack #3: Remove the clutter.
+Hack #{counter:hack-idx-script}: Remove the clutter.
 // end::clutter-intro[]
 
 // tag::messy-workspace[]
@@ -204,7 +204,7 @@ Be vigilant about removing clutter both in the document and in the physical spac
 //=== Drive with the keyboard
 
 // tag::keys-intro[]
-Hack #4: Keep your fingers on the keys
+Hack #{counter:hack-idx-script}: Keep your fingers on the keys
 // end::keys-intro[]
 
 // tag::keys-detail[]
@@ -253,7 +253,7 @@ If that doesn't help you write fluently, I don't know what will.
 === Step out and take a hike
 
 // tag::hike-intro[]
-Hack #5: Step out and take a hike.
+Hack #{counter:hack-idx-script}: Step out and take a hike.
 // end::hike-intro[]
 
 // we see man as walking away
@@ -324,7 +324,7 @@ When your stuck, get those legs moving and you might find that your thoughts sta
 === Push to publish
 
 // tag::publish-intro[]
-Hack #6: Push to publish
+Hack #{counter:hack-idx-script}: Push to publish
 // end::publish-intro[]
 
 // tag::automation[]
@@ -370,7 +370,7 @@ It's just push to publish.
 === Make progress every day
 
 // tag::progress-intro[]
-Hack #7: Make progress every day.
+Hack #{counter:hack-idx-script}: Make progress every day.
 
 I remember when I first heard the tagline, "`Make progress every day.`"
 I immediately thought to myself, "`Wow, if there was ever a rally cry to be mediocre, this has to be it.`"
