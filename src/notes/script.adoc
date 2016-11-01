@@ -15,7 +15,7 @@ Let's find out how to set those ideas free by coercing your brain to yield to yo
 
 == Brain Hacks
 
-// tag::part-1[]
+// tag::retro[]
 Last year, I was here at Devoxx Morocco offering seven ways to help you writing fluently.
 You can find a video of that talk on the Devoxx YouTube channel.
 // See https://www.youtube.com/watch?v=r6RXRi5pBXg
@@ -23,7 +23,7 @@ You can find a video of that talk on the Devoxx YouTube channel.
 Today, I'll share with you seven more brain hacks, some of which relate to or extend from that first set.
 
 Let's get started.
-// end::part-1[]
+// end::retro[]
 
 === Offload your thoughts
 
@@ -160,8 +160,6 @@ You're brought closer to your content and that intimacy allows you to form a dee
 That's when the ideas really start to flow.
 // end::asciidoc-model[]
 
-// visual: AsciiDoc heavily laden w/ markup
-
 // tag::markup-laden[]
 When you do need to add formatting marks, be frugal about it!
 Just because AsciiDoc has a rich syntax doesn't mean you have to use all of it at once.
@@ -199,11 +197,11 @@ Be vigilant about removing clutter both in the document and in the physical spac
 
 //DA: follow-on point: more content means more to edit; don't be overly verbose
 
-== Keep your fingers on the keys
+=== Keep your fingers on the keys
 //=== Travel with your fingers
-// == Navigate using your keyboard
-// == Navigate with your fingers
-// == Drive with the keyboard
+//=== Navigate using your keyboard
+//=== Navigate with your fingers
+//=== Drive with the keyboard
 
 // tag::keys-intro[]
 Hack #4: Keep your fingers on the keys
@@ -329,8 +327,6 @@ When your stuck, get those legs moving and you might find that your thoughts sta
 Hack #6: Push to publish
 // end::publish-intro[]
 
-// visual concept: content on a conveyor belt
-
 // tag::automation[]
 Part of motivating ourselves to write is believing there's a purpose in doing so.
 One way to instill that impression is to make publishing of the content automatic.
@@ -370,44 +366,51 @@ It's just push to publish.
 //If you setup push to publish, you get the reward.
 // end::publish-wrapup[]
 
-// TODO trim the shit out of me
 === Make progress every day
 
+// tag::progress-intro[]
 Hack #7: Make progress every day.
 
-Make progress every day.
-That's the subtle secret to great success.
-To get the ball rolling, don't try to write everything.
-Just write something.
-Then make writing a daily habit.
-
 I remember when I first heard the tagline, "`Make progress every day.`"
-I immediately thought to myself, "`If there's ever been a rally cry to be mediocre, that has to be it.`"
+I immediately thought to myself, "`Wow, if there was ever a rally cry to be mediocre, this has to be it.`"
 I've grown older and wiser since then.
+// end::progress-intro[]
 
-What I've come to realize is that you can't mandate greatness.
-It's just too much pressure.
+// tag::progress-time-lapse[]
+I now believe this hack is the subtle secret to great success, in writing or anything else.
+Don't try to do everything.
+Just do something.
+//Get the ball rolling.
+Then do it every day.
+
 Imagine if the tagline had been, "`Do something amazing every day.`"
-People would react in one of two ways:
+That's just too much pressure.
+People react in one of two ways:
 
-. They'd stress out about how to do something great and, as a result, not be productive at all.
-. They'd snub their nose at it and rebel and, as a result, not be productive at all.
+. They stress about how to make something great.
+. They snub their nose at it and rebel.
 
-Either way, same outcome.
+Either way, the outcome is the same.
+They aren't productive.
+
+//You can't mandate greatness.
+//It's something you work towards.
 
 The suggestion to make progress every day is far more effective.
-If you think about writing the final draft of a document from start to finish, you'll never do it.
-If, instead, you think about just getting something down, and not letting the day go by without make some progress, it seems achievable.
+If you think about writing the final draft of a document from start to finish, you'll never get to it.
+If, instead, you just get something down, and don't let the day go by without making some progress, it feels achievable.
+// end::progress-time-lapse[]
 
-//How I track my progress...
-As a developer, I don't look at writing as a documentation task.
-I treat it as a development task and follow the same workflow.
+// tag::heatmap[]
+To get into the habit, you need to learn to give yourself credit for progress.
+I use the same workflow for writing that I use for development.
 I file an issue for the improvement; that's a contribution.
 I submit a pull request with the change; that's a contribution.
-Then, I review and merge that change; and that's a contribution.
-Each step along the way, I get credit for the work I've done.
+I review and merge that change; that's a contribution.
+Each step along the way, I credit myself for the work I've done.
 
-// TODO Jump to new conclusion from here
+// begin cut
+////
 If you know you need to make progress every day, then you begin to plan to make progress tomorrow.
 Your anticipates the activity as part of your daily routine, reserves energy for it, and gets you mentally prepared to do it.
 In other words, you learn to pace yourself instead of cramming, then crashing.
@@ -430,14 +433,15 @@ Then tomorrow.
 Then the next.
 Before you know it, writing fluently will just be a part of your daily routine.
 That's the secret to putting writer's block into remission and becoming a happy, productive writer.
-
-// TODO make this the new conclusion (flow is the ultimate brain hack)
 ////
+// end cut
+
 The feeling of being productive is fulfilling, even intoxicating, so you keep doing it.
 It's a virtuous cycle.
-This leads to flow and before you know it, you're writing fluently.
+This leads to flow.
+Before long, you're writing fluently.
 This is indeed the ultimate brain hack.
-////
+// end::heatmap[]
 
 == Conclusion
 
@@ -456,6 +460,8 @@ In this talk, I shared with you the following brain hacks to write fluently:
 
 // tag::fin[]
 I hope that you can use these brain hacks, as well as the ones from part 1, to help you write fluently.
+
+Before I conclude, I'd like to help my business partners, Hubert Sablonnière, Lisa Ruff, and Sarah White for helping me to prepare this talk.
 
 Thank you.
 // end::fin[]
