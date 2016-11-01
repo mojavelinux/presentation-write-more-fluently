@@ -6,22 +6,24 @@
 == Introduction
 
 // tag::title[]
-#TODO# Self introduction.
-
-Your brain is, and will always be, a tyrant, holding your ideas hostage.
+Your brain is, and always will be, a tyrant, holding your ideas hostage.
 But, like all computers, your brain can be hacked.
 Let's find out how to set those ideas free by coercing your brain to yield to your creative will.
+
+#TODO# Self introduction.
 // end::title[]
 
 == Brain Hacks
 
-// tag::title[]
-
+// tag::part-1[]
 Last year, I was here at Devoxx Morocco offering seven ways to help you writing fluently.
 You can find a video of that talk on the Devoxx YouTube channel.
 // See https://www.youtube.com/watch?v=r6RXRi5pBXg
-Today, I'll share with you even more brain hacks, some of which relate to or extend from that first set.
-// end::title[]
+
+Today, I'll share with you seven more brain hacks, some of which relate to or extend from that first set.
+
+Let's get started.
+// end::part-1[]
 
 === Offload your thoughts
 
@@ -32,38 +34,37 @@ Hack #1: Offload your thoughts.
 // tag::offload-instruction[]
 Open up a text editor and write down everything that comes to mind about your topic.
 Put each thought on a line by itself.
-//No formatting.
-//No self-editing.
 Don't format.
 Don't edit.
 Resist the temptation to write in complete sentences.
 Lines should read more like bullet points.
 Aim to keep lines shorter than the screen width.
 
-// visual concept: funnel of ideas
-
-So do you put in here?
+So do you put in this file?
 Facts, points you want to make, supporting quotes, concepts, terms and definitions, instructions, examples you'll need, etc.
+// end::offload-instruction[]
 
+// tag::offload-purpose[]
 The purpose of this practice is to capture your ideas without committing to a particular narrative.
 It takes the burden of having to remember all these thoughts off your mind and gives your brain space to think.
 You're also laying out everything in front of you so you can later rearrange the information and allow a story to emerge.
-It will also be clear where the gaps are in your understanding or the storyline so you know what else to research.
+It will also make it clear where the gaps are in your understanding or the storyline so you know what else to research.
+
 The term for this step is "`free writing.`"
 //Perhaps we should call "`free typing`" instead.
 
 //DA: do we need this next point?
 //You'll feel really great after doing this step because you'll have something to show for your effort.
-// end::offload-instruction[]
+// end::offload-purpose[]
 
-// visual: idea (nut) cache
-
+// tag::background-task[]
 In my experience, free writing also kicks off a background process in my brain that continues digging for new ideas and connections.
 I'll repeatedly return to my computer or email myself to add to this cache as thoughts pop into my head.
-*My theory is that once your brain has a place to stash stuff, it commits to collecting and organizing it.*
 
-// visual concept: printed page with circles, lines, and margin notes.
+My theory is that once your brain has a place to stash stuff, it commits to collecting and organizing it.
+// end::background-task[]
 
+// tag::offload-review[]
 Once you have this cache of information, print it out so you can review it.
 Circle lines that represent the most important points.
 These are your big ideas.
@@ -75,45 +76,53 @@ Let the story the content wants to tell emerge.
 //The key to this stage is to let the content speak to you, and for itself.
 //(Fake it until you make it).
 
-Congratulations.
-You now have the first draft of your document done!
+Congratulations!
+You now have the first draft of your document done.
+
+//DA: Mention that this is precisely the process I followed to write this presentation.
+// end::offload-review[]
 
 === Fill in the blanks
 
+// tag::blanks-intro[]
 Hack #2: Fill in the blanks.
 
-// visual: content template as questionnaire
-
 Another path you can take towards a first draft is to begin with a blank worksheet or template and then just fill in the blanks.
+// end::blanks-intro[]
 
+// tag::blanks-instruction-a[]
 This approach works particularly well for technical documentation such as a tutorial, guide, or README.
-The pre-defined structure laid out by the template encourages consistency from one project to another and saves you from having to invent a structure each time.
-It also reminds you not to leave out a topic or critical step.
+We can even build on the "`Answer a question`" brain hack from part 1 by making the template an outline of questions.
 
-Here we can build on the "`Answer a question`" brain hack from part 1 by making the template an outline of questions.
 With the outline already set, you can save your brain power and focus on the responses.
+The pre-defined structure also reminds you not to leave out a topic or critical step and encourages consistency from one project to another.
+// end::blanks-instruction-a[]
 
-// visual: content template with questions switched to statements
+// tag::blanks-instruction-b[]
+Once you're done filling out this questionnaire, simply swap each question with a statement or topic and, voila, your first draft is done!
 
-Once you're done filling out this questionnaire, simply swap each question with a statement or topic.
-Voila, your first draft is done!
-
-Each time you fill in the blanks, you're going to gain new insights about how to improve the template.
+Each time you fill in the blanks, you'll gain new insights about how to improve the template.
 For instance, you'll discover sections that are missing, better ways to phrase the questions, or recognize additional common elements you can move to the template.
 If you continuously invest these changes back into the template, the practice of filling in the blanks gets easier each time, and gets you to a first draft quicker.
+// end::blanks-instruction-b[]
 
-// visual concept: spring.io content macros; end result, content macro source, and the header that populates and includes it
+// tag::content-macro[]
+The Spring team realized that certain content is so stable and so boilerplate that it's possible to fill in the blanks using a form of mail merge called "`content macros`".
+Here we see a section common to many of their getting started guides.
 
-The Spring team realized that certain content is so stable and so boilerplate that it's possible to fill in the blanks using a form of mail merge.
-They assign values to pre-defined content attributes in the document header, then import the shared templates into the main document using the include directive.
+To prepare this section, they assign values to pre-defined content attributes in the document header.
+// end::content-macro[]
+
+// tag::content-macro-recap[]
+They then import the shared templates into the main document using the include directive.
 The processor automatically populates these templates and weaves the result into the published document.
-The Spring team refers to these as "`content macros`".
 
 If you think about it, the fastest way to write content is to not have to write the content at all!
 Not only do content macros save a lot of effort, they also shift the responsibility of maintaining that portion of the content to the content owner.
 And since the content is centralized, updates can be pushed out to all documents that import them.
 
-That brings to hack #3.
+//That brings to hack #3.
+// end::content-macro-recap[]
 
 //After completing the template, or defining the pre-defined content attributes, you're well on your way to having a first draft of your document done!
 
@@ -124,41 +133,47 @@ That brings to hack #3.
 // TODO custom macros as dialect
 // TODO Disable the spell check.
 
+// tag::clutter-intro[]
 Hack #3: Remove the clutter.
+// end::clutter-intro[]
 
-// visual: messy workspace
-
+// tag::messy-workspace[]
 For some people, clutter is a major deterrent to writing fluently, or just writing in general.
 It can give the feeling of being confined.
 That, in turn, limits the space for your thoughts to roam.
+// end::messy-workspace[]
 
-// visual: clean workspace
-
+// tag::clean-workspace[]
 You can start by clearing away the physical space around you.
 All those little nags and reminders entice you to take your concentration off the writing.
-Writing comes from within, but you can't hear that voice if it's being drown out by the environment around you.
-
-// visual: an AsciiDoc sample document (maybe even showing from DocBook to AsciiDoc)
+Writing comes from within, but you can't hear that voice if it's being drowned out by the environment around you.
 
 But the clutter I really want to focus on the most is the clutter within the document itself.
+// end::clean-workspace[]
+
+// TODO contrast DocBook to AsciiDoc
+// tag::asciidoc-model[]
 One of the reasons I find it so easy to write in AsciiDoc is because it's mostly just lines of text.
 There are hints of markup here and there, but mostly it's uncluttered.
 The reaction many writers have when they first switch from a syntax laden with XML tags like DocBook to AsciiDoc is, "`I can finally see my content!`"
 You're brought closer to your content and that intimacy allows you to form a deeper connection.
 That's when the ideas really start to flow.
+// end::asciidoc-model[]
 
 // visual: AsciiDoc heavily laden w/ markup
 
+// tag::markup-laden[]
 When you do need to add formatting marks, be frugal about it!
 Just because AsciiDoc has a rich syntax doesn't mean you have to use all of it at once.
 If you must to apply special formatting for a term, by all means, do it.
 But don't fall into the trap of marking up stuff just because you can.
-// because everything is emphasized, nothing is emphasized
+When everything is emphasized, nothing is emphasized.
 Before you know it, you'll be marking up all the parts of speech!
 
-// visual: AsciiDoc simplified, modernized
-
 As a general habit, I like to use the minimum number of characters possible to markup the document.
+// end::markup-laden[]
+
+// tag::markup-lean[]
 //I shoot for creating the simplest document I can.
 
 //If you find yourself repeating the same syntax over and over again, refactor that content into an attribute.
@@ -180,6 +195,7 @@ Use them!
 
 As a general rule of thumb, only write what you have to.
 Be vigilant about removing clutter both in the document and in the physical space around you and you'll give your brain plenty of room to work.
+// end::markup-lean[]
 
 //DA: follow-on point: more content means more to edit; don't be overly verbose
 
@@ -189,14 +205,17 @@ Be vigilant about removing clutter both in the document and in the physical spac
 // == Navigate with your fingers
 // == Drive with the keyboard
 
+// tag::keys-intro[]
 Hack #4: Keep your fingers on the keys
+// end::keys-intro[]
 
+// tag::keys-detail[]
 One way to write fluently is to keep your hands on the keyboard and travel around the document using only your fingers.
 The locomotion of continuously pressing keys gives you momentum that leads right into typing words and phrases.
 And there are certainly enough keys and key combinations on the keyboard that you don't need to reach for those few buttons on your mouse.
+// end::keys-detail[]
 
-// visual: vim screen
-
+// tag::vim[]
 I do all my writing in Vim.
 Vim is a text editor that's controlled entirely using the keyboard.
 You use the keyboard to open a file, to move the cursor around, to add text, and to save the file.
@@ -208,9 +227,10 @@ If you haven't yet, I strongly recommend that you at least give a keyboard-focus
 It's a little daunting at first, for sure, but it gives you a certain freedom that you've likely never experienced before.
 All I can say is that there's no way I could write without Vim now.
 And I'm not even really that good at using it.
+// end::vim[]
 
 // visual concept: vim demo; put sample document I'll be using in slide as placeholder
-
+// tag::vim-demo[]
 The fact that I use the keyboard to navigate the document is one of the reasons I advocate so strongly to use sentence per line when writing AsciiDoc.
 As I cover in part 1 of this series, sentence per line is a technique in which you put each sentence on its own line.
 Since AsciiDoc doesn't preserve endlines within normal paragraph text, this doesn't affect the output.
@@ -230,75 +250,93 @@ There's so much more I won't even mention here.
 Best of all, you'll get total hacker cred for writing using Vim.
 You'll have so many developer friends, you won't ever get lost writing a technical document again.
 If that doesn't help you write fluently, I don't know what will.
+// end::vim-demo[]
 
 === Step out and take a hike
 
+// tag::hike-intro[]
 Hack #5: Step out and take a hike.
+// end::hike-intro[]
 
-// visua: man walking (we see him as walking away)
-
+// we see man as walking away
+// tag::hike[]
 Sometimes, the best way to make progress writing is to do something other than writing.
 When you're stuck, take a hike.
 Try to get out into nature if you can.
 A change of scenery can really help.
+// end::hike[]
 
+// tag::mind-body[]
 Writing is a negotiation process with your brain.
 But sometimes, getting your body involved can help to.
 
-_(read Hemingway quote)_
+_It was easier to think if I was walking and doing something._ +
+— Ernest Hemingway
 
 Other routine activities, such as cooking or taking a shower, also work.
+// end::mind-body[]
 
-// visual: brooding (sitting on couch in Stranger Things under letters on wall)
-
+// tag::brooding[]
 The enemy you're up against here is brooding.
 That's when you're dwelling on the negative aspects of a task.
 You become a broken-record, fretting over what you need to do instead of actually moving forward.
 It's a vicious cycle you need to break free of.
+// end::brooding[]
 
+// tag::break-cycle[]
 To break this cycle, some of the most famous writers of all time all praised the benefits of walking.
-//including Twain, Hemingway, and Emerson
+// (including Twain, Hemingway, and Emerson)
+
+_The moment my legs begin to move, my thoughts begin to flow._ +
+— Henry David Thoreau
+// end::break-cycle[]
+
+// tag::walk-reflection[]
+_All truly great thoughts are conceived by walking._ +
+— Friedrich Nietzsche
+
 Whether it's the solitude, the locomotion to get your blood flowing, or just a break from the expectations and pressure, I, too, find a walk helps me collect ideas and organize my thoughts.
+// end::walk-reflection[]
 
-> It was easier to think if I was walking and doing something.
--- Ernest Hemingway
-
-> The moment my legs begin to move, my thoughts begin to flow.
--- Henry David Thoreau
-
-> All truly great thoughts are conceived by walking.
--- Friedrich Nietzsche
-
+// tag::soren-quote[]
 The quote I like the most, though, is this one by Soren Kierkegaard:
 
-> I have walked myself into my best thoughts.
--- Soren Kierkegaard
+_I have walked myself into my best thoughts._ +
+— Soren Kierkegaard
 
-// visual: go back to man walking (before the man was walking away; now new perspectives, he's walking towards)
+Instead of thinking of walking as an escape...
+// end::soren-quote[]
 
-Instead of thinking of walking as an escape, think of it as a journey you're taking towards the content you want to find.
+// before the man was walking away; now new perspective, he's walking towards something
+// tag::hike-fresh-perspective[]
+...think of it as a journey you're taking towards the content you want to find.
 The walking then becomes part of the writing process.
 By the time you return, you'll be itching to jot down all the thoughts you worked out while giving yourself a "`walking start.`"
-//...and that "`walking start`" should get you writing fluently.
+// You'll be writing fluently.
 
 I think there's also something about not being able to write during this time that forces your brain to work harder on the ideas.
 When a particularly good idea comes to my mind, I'll still pull out my phone and e-mail myself a phrase or some bullet points so that I can continue on with the next thought.
 Here I'm doing a bit of the brain offload I discussed earlier so I can continue my thinking.
 
 When your stuck, get those legs moving and you might find that your thoughts start moving as well.
+// end::hike-fresh-perspective[]
 
 // Enable push to publish
 // Configure push to publish
 === Push to publish
 
+// tag::publish-intro[]
 Hack #6: Push to publish
+// end::publish-intro[]
 
 // visual concept: content on a conveyor belt
 
+// tag::automation[]
 Part of motivating ourselves to write is believing there's a purpose in doing so.
 One way to instill that impression is to make publishing of the content automatic.
 This builds on the "`visualize your progress`" tip from part 1, but taking it all the way to the published site or staging area.
 The result is that the writer can instantly see the impact of his or her work.
+// end::automation[]
 
 // visual concept: push to publish demo; edit on GitHub, zoom in to button, make changes in editor, save to commit, toggle to CI build, show change on website
 
@@ -326,9 +364,11 @@ That feedback brings new ideas and questions to answer, all of which can help fu
 //This gives the writer the satisfaction that the content is available without having to put it directly into production.
 //Regardless of how you decide to handle staging, when that change is merged to master, no human should have to be involved to get those updates into production.
 
+// tag::publish-wrapup[]
 Regardless of the workflow, when a change is merged into master, no human should have to get involved to publish those changes.
 It's just push to publish.
 //If you setup push to publish, you get the reward.
+// end::publish-wrapup[]
 
 // TODO trim the shit out of me
 === Make progress every day
@@ -401,6 +441,7 @@ This is indeed the ultimate brain hack.
 
 == Conclusion
 
+// tag::review[]
 In this talk, I shared with you the following brain hacks to write fluently:
 
 // TODO write a back half for each of these points
@@ -411,6 +452,10 @@ In this talk, I shared with you the following brain hacks to write fluently:
 * Keep your fingers on the keys so that...
 * Push to publish ...
 * Make progress every day
+// end::review[]
 
+// tag::fin[]
 I hope that you can use these brain hacks, as well as the ones from part 1, to help you write fluently.
+
 Thank you.
+// end::fin[]
