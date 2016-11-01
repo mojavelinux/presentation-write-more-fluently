@@ -6,17 +6,17 @@
 == Introduction
 
 // tag::title[]
-Your brain is, and always will be, a tyrant, holding your ideas hostage.
+Your brain is, and always will be, a tyrant that holds your ideas hostage.
 But, like all computers, your brain can be hacked.
 Let's find out how to set those ideas free by coercing your brain to yield to your creative will.
 
-#TODO# Self introduction.
+#TODO# My name is Dan Allen...
 // end::title[]
 
 == Brain Hacks
 
 // tag::retro[]
-Last year, I was here at Devoxx Morocco offering seven ways to help you writing fluently.
+Last year, I was here at Devoxx Morocco offering seven ways to help you write fluently.
 You can find a video of that talk on the Devoxx YouTube channel.
 // See https://www.youtube.com/watch?v=r6RXRi5pBXg
 
@@ -40,7 +40,7 @@ Resist the temptation to write in complete sentences.
 Lines should read more like bullet points.
 Aim to keep lines shorter than the screen width.
 
-So do you put in this file?
+So what do you put in this file?
 Facts, points you want to make, supporting quotes, concepts, terms and definitions, instructions, examples you'll need, etc.
 // end::offload-instruction[]
 
