@@ -337,7 +337,7 @@ The result is that the writer can instantly see the impact of his or her work.
 // visual concept: push to publish demo; edit on GitHub, zoom in to button, make changes in editor, save to commit, toggle to CI build, show change on website
 
 // TODO need to write the script that walks through the demo
-
+// tag::publish-workflow[]
 Once the writer's changes are merged into master (you are using git to manage your content, right?), everything that needs to happen to publish the content after that should be automatic and instant.
 The workhorse here is the CI server like Travis or Jenkins.
 The CI job detects the updates on master, kicks off the build, and synchronizes the output files to the web host (or wherever the content needs to go to be accessible).
@@ -359,6 +359,7 @@ That feedback brings new ideas and questions to answer, all of which can help fu
 //If you're really good, you can even set up and automated workflow that builds that branch and publishes it to a staging environment.
 //This gives the writer the satisfaction that the content is available without having to put it directly into production.
 //Regardless of how you decide to handle staging, when that change is merged to master, no human should have to be involved to get those updates into production.
+// end::publish-workflow[]
 
 // tag::publish-wrapup[]
 Regardless of the workflow, when a change is merged into master, no human should have to get involved to publish those changes.
