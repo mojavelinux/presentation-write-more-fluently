@@ -6,6 +6,7 @@ Dan Allen
 :!sectids:
 :icons: font
 :imagesdir: images
+:snippets: snippets
 //:source-highlighter: pygments
 //:pygments-style: bw
 //:pygments-css: style
@@ -16,26 +17,398 @@ Dan Allen
 include::{uri-script}[tag=title]
 ****
 
+== !
+image::part-1-video-preview.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=retro]
+****
+
 [.topic.hack-{counter:hack-idx}]
 == Offload your thoughts
+
+[.cue]
+****
+include::{uri-script}[tag=offload-intro]
+****
+
+[.listing]
+== !
+
+----
+include::{snippets}/ex-offload-before.adoc[lines=1..15]
+...
+----
+
+[.cue]
+****
+include::{uri-script}[tag=offload-instruction]
+****
+
+== !
+image::emerging-idea.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=offload-purpose]
+****
+
+== !
+image::nut-stash.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=background-task]
+****
+
+== !
+
+TODO: Offload review
+
+[.cue]
+****
+include::{uri-script}[tag=offload-review]
+****
 
 [.topic.hack-{counter:hack-idx}]
 == Fill in the blanks
 
+[.cue]
+****
+include::{uri-script}[tag=blanks-intro]
+****
+
+[.listing]
+== !
+
+----
+include::{snippets}/ex-template-readme-a.adoc[]
+----
+
+[.cue]
+****
+include::{uri-script}[tag=blanks-instruction-a]
+****
+
+[.listing]
+== !
+
+----
+include::{snippets}/ex-template-readme-b.adoc[]
+----
+
+[.cue]
+****
+include::{uri-script}[tag=blanks-instruction-b]
+****
+
+[.poster]
+== !
+
+image::ex-content-macro.png[]
+
+[.cue]
+****
+include::{uri-script}[tag=content-macro]
+****
+
+[.listing]
+== !
+
+----
+include::{snippets}/ex-content-macro.adoc[]
+----
+
+[.cue]
+****
+include::{uri-script}[tag=content-macro]
+****
+
+[.listing]
+== !
+
+----
+include::{snippets}/ex-use-content-macro.adoc[]
+----
+
+[.cue]
+****
+include::{uri-script}[tag=content-macro-recap]
+****
+
 [.topic.hack-{counter:hack-idx}]
 == Remove the clutter
 
-[.topic.hack-{counter:hack-idx}]
-== Travel with your fingers
+[.cue]
+****
+include::{uri-script}[tag=clutter-intro]
+****
+
+== !
+image::messy-workspace.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=messy-workspace]
+****
+
+== !
+image::clean-workspace.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=clean-workspace]
+****
+
+[.listing]
+== !
+
+------
+include::{snippets}/ex-doc.adoc[]
+------
+
+[.cue]
+****
+include::{uri-script}[tag=asciidoc-model]
+****
+
+[.listing]
+== !
+
+------
+include::{snippets}/ex-complex.adoc[]
+------
+
+[.cue]
+****
+include::{uri-script}[tag=markup-laden]
+****
+
+[.listing]
+== !
+
+------
+include::{snippets}/ex-simple.adoc[]
+------
+
+[.cue]
+****
+include::{uri-script}[tag=markup-lean]
+****
 
 [.topic.hack-{counter:hack-idx}]
-== Take a hike
+== Keep your fingers on the keys
+
+[.cue]
+****
+include::{uri-script}[tag=keys-intro]
+****
+
+== !
+image::keyboard-typing.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=keys-detail]
+****
+
+[.poster]
+== !
+image::vim-logo.svg[]
+
+[.cue]
+****
+include::{uri-script}[tag=vim]
+****
+
+== !
+image::vim-editing-session.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=vim-demo]
+****
+
+[.topic.hack-{counter:hack-idx}]
+== Step out and take a hike
+
+[.cue]
+****
+include::{uri-script}[tag=hike-intro]
+****
+
+== !
+image::hiker.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=hike]
+****
+
+[.quote]
+== !
+
+> It was easier to think if I was walking and doing something.
+-- Ernest Hemingway
+
+[.cue]
+****
+include::{uri-script}[tag=mind-body]
+****
+
+== !
+image::brooding.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=brooding]
+****
+
+[.quote]
+== !
+
+> The moment my legs begin to move, my thoughts begin to flow.
+-- Henry David Thoreau
+
+[.cue]
+****
+include::{uri-script}[tag=break-cycle]
+****
+
+[.quote]
+== !
+
+> All truly great thoughts are conceived by walking.
+-- Friedrich Nietzsche
+
+[.cue]
+****
+include::{uri-script}[tag=walk-reflection]
+****
+
+[.quote]
+== !
+
+> I have walked myself into my best thoughts.
+-- Soren Kierkegaard
+
+[.cue]
+****
+include::{uri-script}[tag=soren-quote]
+****
+
+== !
+image::hiker.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=hike-fresh-perspective]
+****
 
 [.topic.hack-{counter:hack-idx}]
 == Push to publish
 
+[.cue]
+****
+include::{uri-script}[tag=publish-intro]
+****
+
+== !
+
+image of printing press stream
+//image::production-stream-1.jpg[role=canvas]
+//image::production-stream-2.jpg[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=automation]
+****
+
+== !
+image::github-rendered-file.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=publish-workflow]
+****
+
+== !
+image::github-edit-file-button.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=publish-workflow]
+****
+
+== !
+image::github-edit-file.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=publish-workflow]
+****
+
+== !
+image::github-preview-changes.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=publish-workflow]
+****
+
+== !
+image::github-commit-changes.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=publish-workflow]
+****
+
+== !
+image::automated-site-build.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=publish-workflow]
+****
+
+== !
+image::published-page.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=publish-wrapup]
+****
+
 [.topic.hack-{counter:hack-idx}]
 == Make progress every day
+
+[.cue]
+****
+include::{uri-script}[tag=progress-intro]
+****
+
+[.poster]
+== !
+
+video::DHE3BlR3yZ0[youtube,640,360,start=25,end=70,opts=muted]
+
+[.cue]
+****
+include::{uri-script}[tag=progress-time-lapse]
+****
+
+//== !
+//image::github-shower.jpg[role=canvas]
+[.poster]
+== !
+image::heatmap.png[]
+
+[.cue]
+****
+include::{uri-script}[tag=heatmap]
+****
 
 [.review]
 == !
@@ -43,10 +416,25 @@ include::{uri-script}[tag=title]
 * Offload your thoughts
 * Fill in the blanks
 * Remove the clutter
-* Travel with your fingers
-* Take a hike
+* Keep your fingers on the keys
+* Step out and take a hike
 * Push to publish
 * Make progress every day
 
+[.cue]
+****
+include::{uri-script}[tag=review]
+****
+
 [.fin]
-== Write with pleasure!
+== Write fluently!
+
+[.cue]
+****
+include::{uri-script}[tag=fin]
+****
+
+[.credits]
+== Image Credits
+
+include::{imagesdir}/_credits.adoc[tag=list]
