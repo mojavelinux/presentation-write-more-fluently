@@ -1,18 +1,14 @@
-= Better Collaboration Leads to Better Documentation: Outline
+= Better Collaboration Leads to Better Docs
 Sarah White
 v1.0.0
 
-[#big-idea]
 Why is it so difficult to collaborate on documentation?
 We believe it's because collaboration procedures are often accidental.
-Managing collaboration as a core requirement leads to a better workflow.
+Managing collaboration as a core requirement leads to a better content workflow.
 
-Emailing or sharing files via a corporate server or services that don't provide versioning is tedious, imprecise and inefficient.
-This leads to frustrated creators, editors, content managers and users.
+== Traditional file sharing is tedious, imprecise & inefficient
 
-== Emailing and sharing files is tedious, imprecise and inefficient
-
-When the tools the team use to collaborate on documentation don't provide versioning and merging, the group can't see who is working on the files, the files get out of sync, authorship and accountability are lost, and edits have to be manually evaluated and integrated into the final document.
+When a team uses tools that don't provide versioning and merging to collaborate on documentation, the team members can't see who is working on the files, the files get out of sync, authorship and accountability are lost, and edits have to be manually evaluated and integrated into the final document.
 
 When the body of documentation becomes too difficult to manage using these informal methods, many businesses decide to buy a content management system (CMS).
 However, a CMS is typically expensive, requires a lot of special knowledge and training, may not integrate with the publishing and distribution platforms the business uses, and can be difficult to customize to the team's workflow.
