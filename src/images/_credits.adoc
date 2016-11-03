@@ -8,5 +8,8 @@
 * quote-bg.jpg, CC0 Public Domain, bykst @ https://pixabay.com/en/wood-paper-old-background-boards-1532439/
 * nut-stash.jpg, CC0 Public Domain, Oldiefan @ https://pixabay.com/en/animal-squirrel-sciurus-foraging-927912/
 * emerging-idea.jpg, Sarah White
+* offload-revisions.jpg, Sarah White
 * brooding.jpg, scene from Stranger Things, copyright Netflix
+* video-frame.jpg, xymonau @ http://www.rgbstock.com/bigphoto/oOEwHu6/Grunge+Negative+7
+* metal-type.jpg, Wilhei, CC-BY 3.0, https://commons.wikimedia.org/wiki/File:Bleisatz_im_Winkelhaken.jpg
 // end::list[]

@@ -18,7 +18,7 @@ include::{uri-script}[tag=title]
 ****
 
 == !
-image::part-1-video-preview.jpg[role=canvas]
+image::part-1-video-preview.jpg[role=canvas,link=https://www.youtube.com/watch?v=r6RXRi5pBXg]
 
 [.cue]
 ****
@@ -63,12 +63,24 @@ include::{uri-script}[tag=background-task]
 ****
 
 == !
-
-TODO: Offload review
+image::offload-revisions.jpg[role=canvas]
 
 [.cue]
 ****
-include::{uri-script}[tag=offload-review]
+include::{uri-script}[tag=offload-revisions]
+****
+
+[.listing]
+== !
+
+----
+include::{snippets}/ex-offload-after.adoc[]
+...
+----
+
+[.cue]
+****
+include::{uri-script}[tag=first-draft]
 ****
 
 [.topic.hack-{counter:hack-idx}]
@@ -198,7 +210,8 @@ include::{uri-script}[tag=markup-lean]
 ****
 
 [.topic.hack-{counter:hack-idx}]
-== Keep your fingers on the keys
+//== Keep your fingers on the keys
+== Keep your fingers moving
 
 [.cue]
 ****
@@ -215,6 +228,7 @@ include::{uri-script}[tag=keys-detail]
 
 [.poster]
 == !
+
 image::vim-logo.svg[]
 
 [.cue]
@@ -315,10 +329,7 @@ include::{uri-script}[tag=publish-intro]
 ****
 
 == !
-
-image of printing press stream
-//image::production-stream-1.jpg[role=canvas]
-//image::production-stream-2.jpg[role=canvas]
+image::metal-type.jpg[role=canvas]
 
 [.cue]
 ****
@@ -366,6 +377,14 @@ include::{uri-script}[tag=publish-workflow]
 ****
 
 == !
+image::github-code-review.png[role=canvas]
+
+[.cue]
+****
+include::{uri-script}[tag=code-review]
+****
+
+== !
 image::automated-site-build.png[role=canvas]
 
 [.cue]
@@ -392,7 +411,13 @@ include::{uri-script}[tag=progress-intro]
 [.poster]
 == !
 
-video::DHE3BlR3yZ0[youtube,640,360,start=25,end=70,opts=muted]
+ifdef::present[]
+video::construction-time-lapse.mp4[]
+//video::DHE3BlR3yZ0[youtube,640,360,start=25,end=70,opts=muted]
+endif::[]
+ifndef::present[]
+image::construction-time-lapse.jpg[]
+endif::[]
 
 [.cue]
 ****
@@ -403,6 +428,7 @@ include::{uri-script}[tag=progress-time-lapse]
 //image::github-shower.jpg[role=canvas]
 [.poster]
 == !
+
 image::heatmap.png[]
 
 [.cue]
@@ -416,7 +442,7 @@ include::{uri-script}[tag=heatmap]
 * Offload your thoughts
 * Fill in the blanks
 * Remove the clutter
-* Keep your fingers on the keys
+* Keep your fingers moving
 * Step out and take a hike
 * Push to publish
 * Make progress every day
