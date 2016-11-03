@@ -10,13 +10,14 @@ Your brain is, and always will be, a tyrant that holds your ideas hostage.
 But, like all computers, your brain can be hacked.
 Let's find out how to set those ideas free by coercing your brain to yield to your creative will.
 
-#TODO# My name is Dan Allen...
+My name is Dan Allen and I'm one of the cofounders of OpenDevise.
+I'm passionate about creating tools and services that help organizations deliver better documentation.
 // end::title[]
 
 == Brain Hacks
 
 // tag::retro[]
-Last year, I was here at Devoxx Morocco offering seven ways to help you write fluently.
+Last year, I was here at Devoxx Morocco to offer seven ways to help you write fluently.
 You can find a video of that talk on the Devoxx YouTube channel.
 // See https://www.youtube.com/watch?v=r6RXRi5pBXg
 
@@ -33,7 +34,7 @@ Hack #{counter:hack-idx-script}: Offload your thoughts.
 
 // tag::offload-instruction[]
 Open up a text editor and write down everything that comes to mind about your topic.
-Put each thought on a line by itself.
+Put each thought on a line by itself, as shown in this example.
 Don't format.
 Don't edit.
 Resist the temptation to write in complete sentences.
@@ -47,28 +48,30 @@ Facts, points you want to make, supporting quotes, concepts, terms and definitio
 // tag::offload-purpose[]
 The purpose of this practice is to capture your ideas without committing to a particular narrative.
 It takes the burden of having to remember all these thoughts off your mind and gives your brain space to think.
-You're also laying out everything in front of you so you can later rearrange the information and allow a story to emerge.
-It will also make it clear where the gaps are in your understanding or the storyline so you know what else to research.
+And you're laying out everything in front of you so you can later rearrange the information and allow a story to emerge.
+It will also become clear where the gaps are in your understanding or the storyline so you know what else to research.
 
-The term for this step is "`free writing.`"
-//Perhaps we should call "`free typing`" instead.
+The term for this step is "`free writing`".
+Though, perhaps we should call "`free typing`".
 
 //DA: do we need this next point?
 //You'll feel really great after doing this step because you'll have something to show for your effort.
 // end::offload-purpose[]
 
 // tag::background-task[]
-In my experience, free writing also kicks off a background process in my brain that continues digging for new ideas and connections.
-I'll repeatedly return to my computer or email myself to add to this cache as thoughts pop into my head.
+In my experience, free typing kicks off a background process in my brain that continues digging for new ideas and connections.
+I'll repeatedly return to my computer or send myself an email to contribute to this cache as thoughts pop into my head.
 
 My theory is that once your brain has a place to stash stuff, it commits to collecting and organizing it.
 // end::background-task[]
 
-// tag::offload-review[]
+// tag::offload-revisions[]
 Once you have this cache of information, print it out so you can review it.
 Circle lines that represent the most important points.
 These are your big ideas.
 Then, go back to the original document and make section titles for each of these points.
+// end::offload-revisions[]
+// tag::first-draft[]
 Organize the remaining lines under these sections.
 Throw out any lines that don't fit in these big ideas.
 Fold points into sentences.
@@ -77,32 +80,33 @@ Let the story the content wants to tell emerge.
 //(Fake it until you make it).
 
 Congratulations!
-You now have the first draft of your document done.
+You now have a first draft of your document done.
+// end::first-draft[]
 
 //DA: Mention that this is precisely the process I followed to write this presentation.
-// end::offload-review[]
 
 === Fill in the blanks
 
 // tag::blanks-intro[]
 Hack #{counter:hack-idx-script}: Fill in the blanks.
 
-Another path you can take towards a first draft is to begin with a blank worksheet or template and then just fill in the blanks.
+//Another path you can take to get to a first draft is to begin with a blank worksheet or template and then just fill in the blanks.
+Another path you can take to get to a first draft is to begin with a template, then just fill in the blanks.
 // end::blanks-intro[]
 
 // tag::blanks-instruction-a[]
 This approach works particularly well for technical documentation such as a tutorial, guide, or README.
-We can even build on the "`Answer a question`" brain hack from part 1 by making the template an outline of questions.
+We can build on the "`Answer a question`" brain hack from part 1 by making the template an outline of questions.
 
-With the outline already set, you can save your brain power and focus on the responses.
-The pre-defined structure also reminds you not to leave out a topic or critical step and encourages consistency from one project to another.
+With the outline already set, you can focus your brain power on the responses.
+The pre-defined structure also reminds you not to leave out a topic or critical step and it encourages consistency from one project to another.
 // end::blanks-instruction-a[]
 
 // tag::blanks-instruction-b[]
 Once you're done filling out this questionnaire, simply swap each question with a statement or topic and, voila, your first draft is done!
 
 Each time you fill in the blanks, you'll gain new insights about how to improve the template.
-For instance, you'll discover sections that are missing, better ways to phrase the questions, or recognize additional common elements you can move to the template.
+For instance, you'll discover sections that are missing, better ways to phrase the questions, or identify additional common elements you can move to the template.
 If you continuously invest these changes back into the template, the practice of filling in the blanks gets easier each time, and gets you to a first draft quicker.
 // end::blanks-instruction-b[]
 
@@ -197,14 +201,15 @@ Be vigilant about removing clutter both in the document and in the physical spac
 
 //DA: follow-on point: more content means more to edit; don't be overly verbose
 
-=== Keep your fingers on the keys
+=== Keep your fingers moving
+//=== Keep your fingers on the keys
 //=== Travel with your fingers
 //=== Navigate using your keyboard
 //=== Navigate with your fingers
 //=== Drive with the keyboard
 
 // tag::keys-intro[]
-Hack #{counter:hack-idx-script}: Keep your fingers on the keys
+Hack #{counter:hack-idx-script}: Keep your fingers moving.
 // end::keys-intro[]
 
 // tag::keys-detail[]
@@ -268,7 +273,7 @@ A change of scenery can really help.
 Writing is a negotiation process with your brain.
 But sometimes, getting your body involved can help to.
 
-_It was easier to think if I was walking and doing something._ +
+"`It was easier to think if I was walking and doing something.`" +
 — Ernest Hemingway
 
 Other routine activities, such as cooking or taking a shower, also work.
@@ -285,12 +290,12 @@ It's a vicious cycle you need to break free of.
 To break this cycle, some of the most famous writers of all time all praised the benefits of walking.
 // (including Twain, Hemingway, and Emerson)
 
-_The moment my legs begin to move, my thoughts begin to flow._ +
+"`The moment my legs begin to move, my thoughts begin to flow.`" +
 — Henry David Thoreau
 // end::break-cycle[]
 
 // tag::walk-reflection[]
-_All truly great thoughts are conceived by walking._ +
+"`All truly great thoughts are conceived by walking.`" +
 — Friedrich Nietzsche
 
 Whether it's the solitude, the locomotion to get your blood flowing, or just a break from the expectations and pressure, I, too, find a walk helps me collect ideas and organize my thoughts.
@@ -299,7 +304,7 @@ Whether it's the solitude, the locomotion to get your blood flowing, or just a b
 // tag::soren-quote[]
 The quote I like the most, though, is this one by Soren Kierkegaard:
 
-_I have walked myself into my best thoughts._ +
+"`I have walked myself into my best thoughts.`" +
 — Soren Kierkegaard
 
 Instead of thinking of walking as an escape...
@@ -324,7 +329,7 @@ When your stuck, get those legs moving and you might find that your thoughts sta
 === Push to publish
 
 // tag::publish-intro[]
-Hack #{counter:hack-idx-script}: Push to publish
+Hack #{counter:hack-idx-script}: Push to publish.
 // end::publish-intro[]
 
 // tag::automation[]
@@ -347,7 +352,9 @@ In essence, we're taking the practice of continuous delivery from development an
 
 //> "Being able to just write AsciiDoc, and then `git push`, and then have up-to-date HTML is really neat."
 //> -- https://twitter.com/nzgb/status/792403210073964544
+// end::publish-workflow[]
 
+// tag::code-review[]
 Of course, there's still room for interim steps in this workflow.
 For instance, the writer can push changes to a branch and send a pull request.
 That gives other members of the team a chance to review the changes and engage in a discussion, which brings a social aspect to the writing.
@@ -359,7 +366,7 @@ That feedback brings new ideas and questions to answer, all of which can help fu
 //If you're really good, you can even set up and automated workflow that builds that branch and publishes it to a staging environment.
 //This gives the writer the satisfaction that the content is available without having to put it directly into production.
 //Regardless of how you decide to handle staging, when that change is merged to master, no human should have to be involved to get those updates into production.
-// end::publish-workflow[]
+// end::code-review[]
 
 // tag::publish-wrapup[]
 Regardless of the workflow, when a change is merged into master, no human should have to get involved to publish those changes.
@@ -439,7 +446,7 @@ That's the secret to putting writer's block into remission and becoming a happy,
 
 The feeling of being productive is fulfilling, even intoxicating, so you keep doing it.
 It's a virtuous cycle.
-This leads to flow.
+This leads to a flow state.
 Before long, you're writing fluently.
 This is indeed the ultimate brain hack.
 // end::heatmap[]
@@ -450,13 +457,14 @@ This is indeed the ultimate brain hack.
 In this talk, I shared with you the following brain hacks to write fluently:
 
 // TODO write a back half for each of these points
-* Offload your thoughts so that...
-* Fill in the blanks so that...
-* Remove the clutter so that...
-* Step out and take a hike because...
-* Keep your fingers on the keys so that...
-* Push to publish ...
-* Make progress every day
+* Offload your thoughts so you room in your head to think of new ones.
+* Fill in the blanks to get standard documents started quicker.
+* Remove the clutter so you can see what you're writing.
+* Step out and take a hike whenever your brooding so your body can help unlock your mind.
+* Keep your fingers moving so you're ready when the thoughts come.
+* Push to publish so you can deliver updates continuously.
+// FIXME Make progress every day summary needs to be stronger
+* Make progress every day and keep the thoughts flowing.
 // end::review[]
 
 // tag::fin[]
