@@ -54,3 +54,4 @@ Might be neat if all or some of these build on hacks in the original 7. Could me
 == Resources
 
 * http://well.blogs.nytimes.com/2015/07/22/how-nature-changes-the-brain/
+* http://bigthink.com/insights-of-genius/why-writing-fluently-is-hard
