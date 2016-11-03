@@ -9,7 +9,6 @@
     "bespoke-hash": "^1.0.2",
     "bespoke-multimedia": "^1.1.0",
     "bespoke-nav": "^1.0.2",
-    "bespoke-onstage": "github:opendevise/bespoke-onstage",
     "bespoke-overview": "^1.0.4",
     "bespoke-scale": "^1.0.1",
     "browserify": "^13.0.1",
