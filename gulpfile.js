@@ -111,8 +111,7 @@ gulp.task('watch', function() {
 gulp.task('build-branch', ['build'], function() {
   var branch = git.branch();
   if (branch != 'master') {
-    return gulp.src('dist/**/*')
-      .pipe(gulp.dest('dist/@' + branch));
+    return gulp.src('dist/**/*').pipe(gulp.dest('dist/event/' + branch));
   }
 });
 
@@ -120,11 +119,11 @@ gulp.task('publish', ['clean', 'build-branch'], function(done) {
   var branch = git.branch();
   var opts = { logger: gutil.log }
   if (branch != 'master') {
-    opts.src = (opts.only = '@' + branch) + '/**/*';
+    opts.src = (opts.only = 'event/' + branch) + '/**/*';
   }
   else {
     // only is a list of globby expressions (not git pathspecs)
-    opts.only = ['*', '!@*']
+    opts.only = ['*', 'event']
   }
   ghpages.publish(path.join(__dirname, 'dist'), opts, done);
 });
