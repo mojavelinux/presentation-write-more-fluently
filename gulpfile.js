@@ -33,7 +33,8 @@ gulp.task('js', ['clean:js'], function() {
     .on('error', browserifyPlumber)
     .pipe(source('src/scripts/main.js'))
     .pipe(buffer())
-    .pipe(isDist ? uglify() : through())
+    //uglyify doesn't currently work when using ES6 syntax (perhaps requires upgrade?)
+    //.pipe(isDist ? uglify() : through())
     .pipe(rename('build.js'))
     .pipe(gulp.dest('dist/build'))
     .pipe(connect.reload());
