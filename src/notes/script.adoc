@@ -18,8 +18,7 @@ I'm passionate about creating tools and services that help organizations deliver
 
 // tag::retro[]
 Last year, I was here at Devoxx Morocco to offer seven ways to help you write fluently.
-You can find a video of that talk on the Devoxx YouTube channel.
-// See https://www.youtube.com/watch?v=r6RXRi5pBXg
+You can find https://www.youtube.com/watch?v=r6RXRi5pBXg[a video of that talk] on the Devoxx YouTube channel.
 
 Today, I'll share with you seven more brain hacks, some of which relate to or extend from that first set.
 
