@@ -118,12 +118,13 @@ gulp.task('build-branch', ['build'], function() {
 
 gulp.task('publish', ['clean', 'build-branch'], function(done) {
   var branch = git.branch();
-  var opts = { logger: gutil.log }
+  var opts = { logger: gutil.log, message: 'Publish presentation from ' + branch + ' to GitHub pages' }
   if (branch != 'master') {
     opts.src = (opts.only = 'event/' + branch) + '/**/*';
   }
   else {
     // only is a list of globby expressions (not git pathspecs)
+    // NOTE don't set this option when first creating the gh-pages branch
     opts.only = ['*', 'event']
   }
   ghpages.publish(path.join(__dirname, 'dist'), opts, done);
