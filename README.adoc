@@ -20,8 +20,8 @@ After attending this session, the blank page will no longer be your nemesis, but
 
 == View online
 
-//https://mojavelinux.github.io/presentation-write-more-fluently[Slides]
-//&middot;
+https://mojavelinux.github.io/presentation-write-more-fluently[Slides]
+&middot;
 https://github.com/mojavelinux/presentation-write-more-fluently/blob/{branch}/src/notes/script.adoc[Script]
 
 == Build and view slides locally
